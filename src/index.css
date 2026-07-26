@@ -1,0 +1,258 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color: #172033;
+    background-color: #F5FBFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+
+  html.dark {
+    color: #F8FAFC;
+    background-color: #0B0F17;
+  }
+
+  ::selection {
+    background-color: #A7D8F0;
+    color: #172033;
+  }
+
+  html.dark ::selection {
+    background-color: #0077B6;
+    color: #FFFFFF;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #F5FBFF;
+  }
+  html.dark ::-webkit-scrollbar-track {
+    background: #0B0F17;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #A7D8F0;
+    border-radius: 9999px;
+  }
+  html.dark ::-webkit-scrollbar-thumb {
+    background: #0077B6;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #87CEEB;
+  }
+  html.dark ::-webkit-scrollbar-thumb:hover {
+    background: #38BDF8;
+  }
+}
+
+/* Frosted Glass Utilities */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(167, 216, 240, 0.4);
+}
+
+.dark .glass-panel {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 119, 182, 0.35);
+}
+
+.glass-panel-subtle {
+  background: rgba(245, 251, 255, 0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(167, 216, 240, 0.3);
+}
+
+.dark .glass-panel-subtle {
+  background: rgba(17, 24, 39, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(0, 119, 182, 0.25);
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(167, 216, 240, 0.35);
+}
+
+.dark .glass-nav {
+  background: rgba(11, 15, 23, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(30, 41, 59, 0.8);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(167, 216, 240, 0.4);
+}
+
+.dark .glass-card {
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(30, 41, 59, 0.9);
+}
+
+/* Soft Glow Effects */
+.glow-blue {
+  box-shadow: 0 0 25px -5px rgba(135, 206, 235, 0.35);
+}
+
+.glow-blue-lg {
+  box-shadow: 0 0 45px -10px rgba(167, 216, 240, 0.45);
+}
+
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px -8px rgba(167, 216, 240, 0.4);
+  border-color: rgba(135, 206, 235, 0.6);
+}
+
+/* Floating animation keyframes */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 7s ease-in-out 2s infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+/* Print Media Query for Clean Black-and-White Professional Documents */
+@media print {
+  @page {
+    margin: 1.5cm;
+    size: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    background: transparent !important;
+    color: #000000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  html,
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  /* Hide navigation, buttons, and interactive elements during printing */
+  nav,
+  footer,
+  .glass-nav,
+  button,
+  .no-print,
+  [aria-label="Scroll to top"],
+  iframe {
+    display: none !important;
+  }
+
+  /* Ensure main content container spans full page width */
+  main,
+  #root,
+  .printable-area {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Modal print adjustments (e.g. for Resume Modal) */
+  [role="dialog"] {
+    position: static !important;
+    background: #ffffff !important;
+    width: 100% !important;
+    inset: 0 !important;
+    overflow: visible !important;
+    display: block !important;
+  }
+
+  [role="dialog"] > div {
+    max-width: 100% !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  /* Headings & page break behavior */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #000000 !important;
+    page-break-after: avoid;
+    break-after: avoid;
+    font-weight: 800 !important;
+  }
+
+  p,
+  blockquote,
+  ul,
+  ol {
+    orphans: 3;
+    widows: 3;
+  }
+
+  section,
+  article,
+  .glass-panel,
+  .glass-card {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    border-color: #e2e8f0 !important;
+  }
+
+  a {
+    text-decoration: underline !important;
+    color: #000000 !important;
+  }
+}
+

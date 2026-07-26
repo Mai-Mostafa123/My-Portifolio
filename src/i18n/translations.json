@@ -1,0 +1,140 @@
+{
+  "en": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "skills": "Skills",
+      "projects": "Projects",
+      "certifications": "Certifications",
+      "experience": "Experience",
+      "contact": "Contact",
+      "resume": "Resume",
+      "hireMe": "Hire Me"
+    },
+    "theme": {
+      "light": "Light Mode",
+      "dark": "Dark Mode"
+    },
+    "language": {
+      "english": "English",
+      "spanish": "Español",
+      "toggle": "Language"
+    },
+    "hero": {
+      "greeting": "Hello, I'm",
+      "badge": "Available for Full-time Roles & High-Impact Contracts",
+      "role": "Full Stack Software Engineer",
+      "subtext": "Architecting scalable web applications, modern cloud APIs, and high-performance interactive interfaces with clean code and robust precision.",
+      "exploreProjects": "Explore Projects",
+      "contactMe": "Get In Touch",
+      "yearsExp": "Years Experience",
+      "projectsBuilt": "Projects Completed",
+      "certificationsCount": "Certifications"
+    },
+    "common": {
+      "viewDetails": "View Details",
+      "liveDemo": "Live Demo",
+      "sourceCode": "Source Code",
+      "backToHome": "Back to Home",
+      "backToProjects": "Back to Projects",
+      "readMore": "Read More",
+      "all": "All",
+      "search": "Search...",
+      "filter": "Filter",
+      "close": "Close",
+      "download": "Download",
+      "minRead": "min read",
+      "loading": "Loading..."
+    },
+    "contact": {
+      "title": "Let's Build Something Great",
+      "subtitle": "Have a project in mind, a career opportunity, or want to collaborate? Send me a message and I'll reply promptly.",
+      "nameLabel": "Your Name",
+      "emailLabel": "Your Email",
+      "subjectLabel": "Subject",
+      "messageLabel": "Message",
+      "sendButton": "Send Message",
+      "sending": "Sending...",
+      "successMsg": "Thank you! Your message has been sent successfully.",
+      "location": "Location",
+      "email": "Email",
+      "availability": "Availability"
+    },
+    "footer": {
+      "tagline": "Crafting exceptional digital experiences with modern web technologies.",
+      "quickLinks": "Quick Links",
+      "connect": "Connect",
+      "allRightsReserved": "All rights reserved.",
+      "backToTop": "Back to Top"
+    }
+  },
+  "es": {
+    "nav": {
+      "home": "Inicio",
+      "about": "Sobre mí",
+      "skills": "Habilidades",
+      "projects": "Proyectos",
+      "certifications": "Certificaciones",
+      "experience": "Experiencia",
+      "contact": "Contacto",
+      "resume": "CV / Resume",
+      "hireMe": "Contrátame"
+    },
+    "theme": {
+      "light": "Modo Claro",
+      "dark": "Modo Oscuro"
+    },
+    "language": {
+      "english": "English",
+      "spanish": "Español",
+      "toggle": "Idioma"
+    },
+    "hero": {
+      "greeting": "Hola, soy",
+      "badge": "Disponible para Roles de Tiempo Completo y Proyectos",
+      "role": "Ingeniero de Software Full Stack",
+      "subtext": "Diseñando aplicaciones web escalables, APIs en la nube modernas e interfaces interactivas de alto rendimiento.",
+      "exploreProjects": "Explorar Proyectos",
+      "contactMe": "Ponerse en Contacto",
+      "yearsExp": "Años de Experiencia",
+      "projectsBuilt": "Proyectos Completados",
+      "certificationsCount": "Certificaciones"
+    },
+    "common": {
+      "viewDetails": "Ver Detalles",
+      "liveDemo": "Demo en Vivo",
+      "sourceCode": "Código Fuente",
+      "backToHome": "Volver al Inicio",
+      "backToProjects": "Volver a Proyectos",
+      "readMore": "Leer más",
+      "all": "Todos",
+      "search": "Buscar...",
+      "filter": "Filtrar",
+      "close": "Cerrar",
+      "download": "Descargar",
+      "minRead": "min de lectura",
+      "loading": "Cargando..."
+    },
+    "contact": {
+      "title": "Construyamos Algo Increíble",
+      "subtitle": "¿Tienes un proyecto en mente, una oportunidad laboral o deseas colaborar? Envíame un mensaje y te responderé de inmediato.",
+      "nameLabel": "Tu Nombre",
+      "emailLabel": "Tu Email",
+      "subjectLabel": "Asunto",
+      "messageLabel": "Mensaje",
+      "sendButton": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "successMsg": "¡Gracias! Tu mensaje ha sido enviado exitosamente.",
+      "location": "Ubicación",
+      "email": "Correo",
+      "availability": "Disponibilidad"
+    },
+    "footer": {
+      "tagline": "Creando experiencias digitales excepcionales con tecnologías web modernas.",
+      "quickLinks": "Enlaces Rápidos",
+      "connect": "Conectar",
+      "allRightsReserved": "Todos los derechos reservados.",
+      "backToTop": "Volver Arriba"
+    }
+  }
+}
