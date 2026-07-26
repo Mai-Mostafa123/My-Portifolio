@@ -8,11 +8,11 @@ export const projectsData: Project[] = [
     fullDescription: 'Heart Rate Monitor The Heart Rate Monitor is a smart healthcare project designed to measure and monitor a person heart rate in real time. The system uses a heart rate sensor detect pulse signals and display the users heart rate ',
     category: 'health',
     technologies: ['C++,python'],
-     image: '../../public/vital 1.png',
+     image: '/vital 1.png',
     screenshots: [
-      '../../public/vital 1.png',
-      '../../public/vital 1.png',
-      '../../public/vital 1.png'
+      '/vital 1.png',
+      '/vital 1.png',
+      '/vital 1.png'
     ],
     githubUrl: 'https://github.com/example/nexus-cloud',
     liveUrl: 'https://nexus-cloud-demo.example.com',
@@ -56,11 +56,11 @@ export const projectsData: Project[] = [
   fullDescription: 'A modern marketing landing page built to showcase Bigcola products and make online shopping easier and more interactive.',
   category: 'Frontend',
   technologies: ['HTML', 'CSS', 'JavaScript'],
-  image: '../../public/cola.png',
+  image: '/cola.png',
   screenshots: [
-    '../../public/cola.png',
-    '../../public/cola2.png',
-    '../../public/cola3.png'
+    '/cola.png',
+    '/cola2.png',
+    '/cola3.png'
   ],
   githubUrl: 'https://github.com/Mai-Mostafa123/Big-cola.git',
   liveUrl: 'https://mai-mostafa123.github.io/Big-cola/',
@@ -98,11 +98,11 @@ export const projectsData: Project[] = [
   fullDescription: 'A fully responsive restaurant website designed to offer seamless menu exploration, featured dishes showcase, and effortless food ordering or reservation experience.',
   category: 'Frontend',
   technologies: ['HTML', 'CSS', 'JavaScript'],
-  image: '../../public/res1.png',
+  image: '/res1.png',
   screenshots: [
-    '../../public/res2.png',
-    '../../public/res3.png',
-    '../../public/res4.png'
+    '/res2.png',
+    '/res3.png',
+    '/res4.png'
   ],
   githubUrl: 'https://github.com/Mai-Mostafa123/Resturant.git',
   liveUrl: 'https://mai-mostafa123.github.io/Resturant',
@@ -141,12 +141,12 @@ export const projectsData: Project[] = [
   fullDescription: 'Appexy is a sleek, fully responsive landing page designed to showcase software products and mobile applications with clean modern UI layouts and smooth user interactions.',
   category: 'Frontend',
   technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
-  image: '../../public/app1.png',
+  image: '/app1.png',
   screenshots: [
-    '../../public/app2.png',
-    '../../public/app3.png',
-    '../../public/app4.png',
-    '../../public/app5.png'
+    '/app2.png',
+    '/app3.png',
+    '/app4.png',
+    '/app5.png'
   ],
   githubUrl: 'https://github.com/Mai-Mostafa123/Appexy.git',
   liveUrl: 'https://mai-mostafa123.github.io/Appexy/',
@@ -187,11 +187,11 @@ export const projectsData: Project[] = [
   fullDescription: 'Pixelize is a sleek and modern web application template designed to showcase agency services, creative portfolios, and digital products with dynamic UI components and smooth user interactions.',
   category: 'Frontend',
   technologies: ['HTML', 'CSS', 'JavaScript'],
-  image: '../../public/pix1.png',
+  image: '/pix1.png',
   screenshots: [
-    '../../public/pix1.png',
-    '../../public/pix2.png',
-    '../../public/pix3.png',
+    '/pix1.png',
+    '/pix2.png',
+    '/pix3.png',
   ],
   githubUrl: 'https://github.com/Mai-Mostafa123/pix-.git',
   liveUrl: 'https://themewagon.github.io/Pixelize/',
@@ -231,11 +231,11 @@ export const projectsData: Project[] = [
   fullDescription: 'Feane is an interactive fast food ordering platform designed to showcase delicious burger menus, special offers, and provide an intuitive food ordering experience with dynamic menu filtering.',
   category: 'Frontend',
   technologies: ['HTML', 'CSS', 'SCSS', 'JavaScript'],
-  image: '../../public/fean1.png',
+  image: '/fean1.png',
   screenshots: [
-    '../../public/fean2.png',
-    '../../public/fean3.png',
-    '../../public/fean4.png'
+    '/fean2.png',
+    '/fean3.png',
+    '/fean4.png'
   ],
   githubUrl: 'https://github.com/Mai-Mostafa123/feane.git',
   liveUrl: 'https://mai-mostafa123.github.io/feane/',
@@ -266,5 +266,48 @@ export const projectsData: Project[] = [
     'CSS/SCSS': 'Provides custom styling, nested modular components, vibrant theme colors, and responsive layouts.',
     'JavaScript': 'Powers dynamic category menu filtering, smooth UI navigation, and interactive modal dialogs.'
   }
-}
+},
+{
+    id: 'Library-online',
+    title: 'Digital Library & Bookstore',
+    shortDescription: 'Modern, fully responsive online library and book reservation platform.',
+    fullDescription: 'An interactive digital library platform that allows users to explore, search, and borrow or buy books online effortlessly.',
+    category: 'Frontend',
+    technologies: ['HTML', 'CSS', 'SCSS', 'JavaScript','typeScript','NextJs'],
+    image: '/lib1.png',
+    screenshots: [
+      '/lib2.png',
+      '/lib3.png',
+      '/lib4.png'
+    ],
+    githubUrl: 'https://github.com/Mai-Mostafa123/library-online.git',
+    liveUrl: 'https://themewagon.github.io/si-education/',
+    featured: false,
+    features: [
+      'Interactive catalog with instant genre filtering (Fiction, Science, History, etc.)',
+      'Dynamic online book search, reservation, and borrowing modal',
+      'Eye-catching featured books section and reader discounts',
+      'User reviews, rating system, and store location map'
+    ],
+    problem: 'Traditional libraries need an engaging, accessible, and mobile-friendly digital catalog.',
+    solution: 'Engineered a highly responsive frontend interface for seamless book discovery and borrowing.',
+    role: 'Frontend Developer',
+    challenges: [
+      'Creating smooth filtering and search transitions for large book databases',
+      'Structuring modular SCSS styles for clean, scalable UI components'
+    ],
+    results: [
+      'Delivered an elegant digital reading experience with modern visual appeal',
+      'Achieved fast performance and perfect responsiveness on mobile and desktop'
+    ],
+    metrics: [
+      { label: 'Mobile Performance', value: '100%' },
+      { label: 'Page Speed', value: '< 1.0s' }
+    ],
+    techUsage: {
+      'HTML5': 'Structured semantic layouts ensuring accessible catalog sections',
+      'CSS/SCSS': 'Provides custom styling and nested modular components',
+      'JavaScript': 'Powers dynamic category filtering and interactive UI navigation'
+    }
+  },
 ];

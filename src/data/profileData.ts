@@ -3,7 +3,7 @@ import { ProfileData } from '../types';
 export const profileData: ProfileData = {
   name: 'Mai Mostafa',
   title: 'Senior Full Stack Developer & system Architect',
-  avatar:'../../public/pro.jpeg',
+  avatar:'/pro.jpeg',
   tagline: 'Passionate Full-Stack Web Developer with hands-on experience building responsive web applications. Proficient in frontend technologies including React, JavaScript, Tailwind CSS, and Bootstrap, combined with solid backend development skills using Node.js, PHP, and Laravel. Adept at building complete, user-centric digital solutions and managing relational databases with MySQL.',
   location: 'Egypt (Open to Remote)',
   email: 'maimm8480@gmail.com',
